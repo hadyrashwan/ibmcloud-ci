@@ -1,4 +1,6 @@
-> Docker image to deploy nodejs apps using the ibmcloud cli . this image is for use with a continuous integration tool like Gtilab ci 
+# IBM cloud CLI with nodejs container
+
+> Docker image to deploy nodejs apps using the ibmcloud cli. This image is for use with a continuous integration tool like Gtilab ci. For use at Badgewell internally .
 
 
 
