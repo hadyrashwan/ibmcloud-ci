@@ -4,8 +4,9 @@
 
 
 ## Usage with CI
-* Inside your CI file use the `hadyrashwan/ibmcloud-ci:latest` . You can use Gitlab CI https://about.gitlab.com/product/continuous-integration/
-* Genreate your API key from https://cloud.ibm.com/docs/iam?topic=iam-manapikey.
+* Inside your CI file use the `hadyrashwan/ibmcloud-ci:latest` image. You can use Gitlab CI 
+* Genreate your API key from IBM cloud portal https://cloud.ibm.com/docs/iam?topic=iam-manapikey .
+* Setup your enviroment varaibles.
 * Run `npm install`.
 * Run `npm build` if needed.
 * Login using `ibmcloud login  --apikey <api-key> -r <region>  -o <organization> -s <space>`.
