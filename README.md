@@ -14,8 +14,9 @@
 * run ` docker run  hadyrashwan/ibmcloud-ci bash` 
 
 ## Usage with CI
-* login using your username and password with  `ibmcloud login -u <username> -p <password>`
-* set your api(region url) , organization and space `ibmcloud target --cf-api <api>  -o <organization> -s <space> `
-* setup your project using ci tool and `npm`  
-* deploy using `ibmcloud app push <app_name>`
+* genreate your API key from https://cloud.ibm.com/docs/iam?topic=iam-manapikey
+* run `npm install`
+* run `npm build` if needed
+* login using `ibmcloud login  --apikey <api-key> -r <region>  -o <organization> -s <space> `
+* deploy using `ibmcloud app push <app-name>`
 
